@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.homepage-hero-section {
+  background: url('../../Assest/HomeBack/HomepageBackgroundpic.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.homepage-hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.homepage-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.homepage-hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.homepage-about-section {
+  padding: 60px 0;
+  background-color: #70a3d5;
+  text-align: center;
+}
+
+.homepage-about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.homepage-about-section p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.homepage-work-section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.homepage-work-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.homepage-work-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.homepage-work-item {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.homepage-work-item h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+.homepage-work-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.homepage-impact-section {
+  padding: 60px 0;
+  background-color: #f5f5f5;
+  text-align: center;
+  background-image: url('../../Assest/HomeBack/HomepageBackgroundpic.jpg'); /* Adjust path to image */
+  background-size: cover;
+  background-position: center;
+}
+
+.impact-header {
+  font-size: 2rem; /* Reduced font size */
+  margin-bottom: 30px;
+  color: white;
+}
+
+.homepage-impact-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows responsive design */
+}
+
+.homepage-impact-item {
+  width: 22%; /* Reduced width for more compact layout */
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.homepage-impact-item h5 {
+  font-size: 1rem; /* Reduced font size */
+  margin-top: 10px;
+}
+
+.homepage-impact-item h1 {
+  font-size: 2.5rem; /* Larger font size for numbers */
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .homepage-impact-item {
+    width: 45%;
+    padding: 20px;
+  }
+
+  .impact-header {
+    font-size: 1.5rem;
+  }
+
+  .homepage-impact-item h1 {
+    font-size: 2rem;
+  }
+
+  .homepage-impact-item h5 {
+    font-size: 0.9rem;
+  }
+}
+
